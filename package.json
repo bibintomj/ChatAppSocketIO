@@ -1,0 +1,25 @@
+{
+  "name": "chatappsocketio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e css,json,ejs,js --watch app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibintomj/ChatAppSocketIO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibintomj/ChatAppSocketIO/issues"
+  },
+  "homepage": "https://github.com/bibintomj/ChatAppSocketIO#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "reload": "^2.3.1"
+  }
+}
